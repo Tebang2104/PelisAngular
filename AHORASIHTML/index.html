@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots"content="index,follow" />
+    <title>AHORASI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+ <main>
+    <form action="">
+        <label for="Nombre">
+            <span>Cual es tu nombre</span>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" autocomplete="name" required>
+        </label>
+        <label for="edad">
+            <span>Entre que rango de edad te encuentras</span>
+            <input list="edad" placeholder="Edad" required>
+            <datalist id="edad">
+                <option value="Entre 14 a 17"></option>
+                <option value="Entre 18 a 23"></option>
+            </datalist>
+        </label>
+        <label for="correo">
+            <span>Dijita tu correo</span>
+            <input type="email" id="correo" name="correo" placeholder="Correo Electronico" required>
+        </label>
+        <label for="pais">
+            <span>Cual es tu pais de nacimiento</span>
+            <input list="pais" name="pais" placeholder="Pais" required>
+            <datalist id="pais">
+                <option value="Colombia"></option>
+                <option value="Mexico"></option>
+                <option value="Holanda"></option>
+            </datalist>
+        </label>
+        <input type="submit">
+    </form>
+ </main>
+            
+    
+    <footer>La buena mi socio</footer>
+</body>
+</html>

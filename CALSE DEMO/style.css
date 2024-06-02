@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: ;
+}
+h1{
+    background-color: purple;
+    font-family:Verdana, Geneva, Tahoma, sans-serifss
+    }
+    .main-nav{
+        margin-top: 10px;
+        list-style-type: none;
+        padding-left: 0%;
+        
+    }
